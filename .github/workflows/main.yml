@@ -16,6 +16,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           COMMIT_MESSAGE: "Nova certificação obtida."
           CREDLY_SORT: POPULAR
-          BADGE_SIZE: 110x110
+          # BADGE_SIZE: 110x110
           NUMBER_LAST_BADGES: 48
         
