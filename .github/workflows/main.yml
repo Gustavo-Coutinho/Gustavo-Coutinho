@@ -13,3 +13,9 @@ jobs:
         uses: pemtajo/badge-readme@main
         with:       
           CREDLY_USER: gustavo-potenza-coutinho
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          COMMIT_MESSAGE: "Nova certificação obtida."
+          CREDLY_SORT: POPULAR
+          BADGE_SIZE: 110X110
+          NUMBER_LAST_BADGES: 48
+        
