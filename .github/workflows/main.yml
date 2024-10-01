@@ -1,0 +1,15 @@
+name: Scraping para trazer meus badges
+
+on:
+  schedule:
+    # Runs at 2am UTC
+    - cron: "5 * * * *"
+jobs:
+  update-readme:
+    name: Atualizar README com meus badges
+    runs-on: ubuntu-latest
+    steps:
+      - name: Badges - Readme
+        uses: pemtajo/badge-readme@main
+        with:       
+          CREDLY_USER: gustavo-potenza-coutinho
