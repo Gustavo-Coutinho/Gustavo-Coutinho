@@ -3,7 +3,7 @@ name: Scraping para trazer meus badges
 on:
   schedule:
     # Runs at 2am UTC
-    - cron: "5 * * * *"
+    - cron: "* * * * *"
 jobs:
   update-readme:
     name: Atualizar README com meus badges
