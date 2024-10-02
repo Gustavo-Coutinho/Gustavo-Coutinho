@@ -2,8 +2,8 @@ name: Scraping para trazer meus badges
 
 on:
   schedule:
-    # Runs at 2am UTC
-    - cron: "* 2 * * *"
+    # Executa toda segunda-feira às 3h da manhã no fuso-horário UTC
+    - cron: "0 3 * * 1"
 jobs:
   update-readme:
     name: Atualizar README com meus badges
